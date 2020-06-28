@@ -1,0 +1,54 @@
+.novel-detail {
+  padding: 32px 0;
+  background-color: #f7f7f7;
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 24px;
+    padding: 0 32px;
+  }
+  .sub-info {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 32px;
+    .info-item {
+      margin-left: 24px;
+      display: flex;
+      align-items: center;
+      .icon {
+        display: flex;
+        align-items: center;
+      }
+      .text {
+        color: #999999;
+        margin-left: 8px;
+      }
+    }
+  }
+  .content {
+    padding-bottom: 32px;
+    background-color: #f7f7f7 !important;
+    .h2w {
+      color: #333333;
+      background-color: #f7f7f7 !important;
+    }
+    .h2w__p  {
+      text-indent: 2rem;
+    }
+  }
+  .pager {
+    display: flex;
+    align-items: center;
+    margin: 32px 0 0;
+    .item {
+      flex: 1;
+      margin: 0 16px;
+      padding: 16px 0;
+      background-color: #ffffff;
+      border-radius: 8px;
+      color: #333333;
+      text-align: center;
+    }
+  }
+}

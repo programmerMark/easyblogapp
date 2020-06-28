@@ -1,0 +1,40 @@
+.about {
+  background-color: #eee;
+  .user {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 16px;
+    padding: 32px;
+    .portrait {
+    }
+    .sub-info {
+      margin-left: 24px;
+      .username {
+        color: #333333;
+        font-size: 36px;
+        font-weight: bold;
+        padding-bottom: 16px;
+      }
+      .account-info {
+        .item {
+          display: block;
+          font-size: 26px;
+          color: #999999;
+          padding: 3px 0;
+        }
+      }
+    }
+  }
+  .content {
+    background-color: #ffffff;
+    .publish-time {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 24px 32px 48px;
+      .text {
+        font-size: 32px;
+        color: #666666;
+      }
+    }
+  }
+}

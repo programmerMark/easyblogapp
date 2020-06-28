@@ -1,0 +1,50 @@
+.talk-item {
+  margin-bottom: 16px;
+  padding: 16px 32px;
+  background-color: #fff;
+  border-top: 1px solid #eaeaea;
+  .user {
+    display: flex;
+    .portrait {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+    .user-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 16px;
+      font-family: 'Microsoft YaHei';
+      .username {
+        padding: 4px;
+        font-size: 30px;
+        color: #f46200;
+      }
+      .publish-time {
+        padding: 4px;
+        font-size: 24px;
+        color: #999;
+      }
+    }
+  }
+  .content {
+    font-size: 28px;
+    padding: 32px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .sub-opt {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    .item {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      .text {
+        color: #666666;
+        margin-left: 16px;
+      }
+    }
+  }
+}

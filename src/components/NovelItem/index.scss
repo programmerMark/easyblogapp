@@ -1,0 +1,45 @@
+.novel-item {
+  margin: 16px 0;
+  padding: 16px 32px 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    .title-text {
+      color: #333333;
+      font-size: 32px;
+      border-radius: 16px;
+    }
+  }
+  .img-wrapper {
+    width: 100%;
+    text-align: center;
+    .img {
+      height: 300px;
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+  }
+  .sub-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 16px;
+    .sub-info-item {
+      display: flex;
+      align-items: center;
+      margin-left: 24px;
+      .icon {
+        display: flex;
+        align-items: center;
+      }
+      .text {
+        font-size: 28px;
+        color: #999999;
+        margin-left: 8px;
+      }
+    }
+  }
+}

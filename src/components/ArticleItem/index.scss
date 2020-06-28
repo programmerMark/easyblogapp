@@ -1,0 +1,61 @@
+.article-item {
+  margin: 32px 0 0 0;
+  padding: 16px 32px 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  .title {
+    display: flex;
+    align-items: initial;
+    margin-bottom: 24px;
+    @mixin reprinted-text {
+      font-size: 26px;
+      height: 34px;
+      color: #74cf59;
+      margin-right: 16px;
+      padding: 8px 16px;
+    }
+    .original {
+      @include reprinted-text;
+      color: #ca0c16;
+      background-color: #f9ecec;
+    }
+    .reprinted {
+      @include reprinted-text;
+      color: #74cf59;
+      background-color: #eaf9e3;
+    }
+    .title-text {
+      color: #333333;
+      font-size: 32px;
+      border-radius: 16px;
+      flex: 1;
+    }
+  }
+  .img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  .sub-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 16px;
+    padding: 0 16px;
+    .sub-info-item {
+      display: flex;
+      align-items: center;
+      margin-left: 24px;
+      .info-icon {
+        display: flex;
+        align-items: center;
+      }
+      .text {
+        font-size: 28px;
+        color: #999999;
+        margin-left: 8px;
+      }
+    }
+  }
+}
